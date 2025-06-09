@@ -1,1 +1,2 @@
 # new-project
+mkdir projectB
