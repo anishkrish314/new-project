@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+body{
+    background-color:rgb(1, 1, 14);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(1, 1, 14);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(31, 30, 30);
+    color: rgb(75, 7, 248);
+
+
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: rgb(250, 164, 190);
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    margin-right: 63px;
+      margin-top: 6px;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 20px;
+}
+ul li button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(11, 245, 202);
+    border: none;
+    color: rgb(29, 4, 247);
+      font-size: 18px;
+}
+ ul li button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgba(66, 229, 16, 0.905);
+    cursor: pointer;
+ }
+  ul li a:hover{
+    color: rgb(116, 251, 20);
+    border-bottom: 2px solid rgb(20, 251, 20); ;
+
+  }
+
+  /* main */
+
+  .home{
+    display: flex;
+    justify-content: center;
+  }
+  .home img{
+    width: 39%;
+    margin-top: 98px;
+    margin-left: -14px;
+  }
+  .home .homeText{
+    margin-top: 200px;
+    margin-left: 44px;
+  }
+  .homeText h1{
+    font-size: 85px;
+    color: rgb(55, 248, 55);
+  }
+  .homeText h3{
+    margin-top: 22px;
+    font-size: 22px;
+  }
+  .homeText p{
+    margin-top: 22px;
+    color: silver;
+  }
+  .homeText button{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 10px;
+    height: 40px;
+    background-color: rgb(41, 0, 128);
+    color: white;
+    border: none;
+  }
+  .homeText button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(23, 252, 107);
+
+  }
+
+  .head{
+    text-align: center;
+    padding: 95px;
+  }
+  .head span{
+    color: rgb(37, 244, 37);
+  }
+  
+
+  
+  
+
+  /* cantact */
+  .contactPage{
+    display: flex;
+    justify-content: center;
+  }
+  .contactText{
+    margin-left: 33px;
+    color: rgba(240, 130, 12, 0.909);
+    margin-top: 134px;
+    font-size: 30px;
+  }
+  .contactPage img{
+    width: 40%;
+    margin-left: 150px;
+  }
+  .contactUs{
+    text-align: center;
+    margin-top: 22px;
+  }
+  .contactUs input{
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+  }
+  .contactUs button{
+    width: 365px;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(41, 249, 204);
+    border-radius: 2px;
+    margin-top: 22px;
+  }
+  .contactUs button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 246, 188);
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(26, 26, 26);
+  }
+  .footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+  }
+  .footerText p{
+margin-top: 11px;
+color: silver;
+  }
+
+  social-icons {
+
+list-style: none;
+
+padding: 0;
+
+margin: 0;
+}
